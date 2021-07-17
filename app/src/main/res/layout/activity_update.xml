@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <TextView
+        style="@style/tv_form"
+        android:text="Update Data"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"/>
+    <TextView
+        style="@style/tv_form"
+        android:text="Id"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/et_up_id"
+        style="@style/edit_form"
+        android:hint="Masukan Id"/>
+    <TextView
+        style="@style/tv_form"
+        android:text="Nama Tugas"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/et_up_nama"
+        style="@style/edit_form"
+        android:hint="Masukan Nama Tugas"/>
+    <TextView
+        style="@style/tv_form"
+        android:text="Target Selesai"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/et_up_tgl"
+        style="@style/edit_form"
+        android:hint="Masukan Tanggal Selesai"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_up_submit"
+            android:text="Update"
+            style="@style/btn_form"/>
+        <Button
+            android:id="@+id/btn_up_cancel"
+            android:text="Cancel"
+            style="@style/btn_form"/>
+    </LinearLayout>
+
+
+</LinearLayout>
